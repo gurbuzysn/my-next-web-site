@@ -1,12 +1,17 @@
 import styles from "@/core/components/header/header.module.css";
 
 
-function Header() {
+export default function Header() {
   return (
-    <div>
-        Header
-    </div>
+    <header>
+        <div className={styles.container}>
+          <div>
+            Logo
+          </div>
+          <div>
+            Menu
+          </div>
+        </div>
+    </header>
   )
 }
-
-export default Header
